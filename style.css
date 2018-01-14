@@ -22,7 +22,7 @@ body{
 
 #showcase-overlay{
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.3);
   top:0;
   bottom: 0;
   height: 100%;
@@ -132,6 +132,7 @@ hr{
 
   font-size: 20px;
   padding: 20px;
+  color: black;
 }
 .about-me-cont {
   margin-bottom: 40px;
@@ -139,4 +140,115 @@ hr{
 .passion-cont {
   padding: 20px;
   text-align: center;
+  color: black;
+}
+.button{
+  background-color: transparent;
+   border: 3px solid black;
+   border-radius: 45px;
+   padding: 10px 10px;
+   width: 300px;
+   font-size: 25px;
+   text-decoration: none;
+   margin-top: 10px;
+   text-align: center;
+   color: black;
+}
+.button-col{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button:hover{
+  text-decoration: none;
+  color: white;
+  border-color: white;
+  transition: 0.3s;
+}
+
+.hire-me{
+  height: 250px;
+  background: #00B7FF;
+}
+.hire-me h2{
+  margin: 0;
+  padding: 20px;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+.form-cont {
+  margin-top: 80px;
+}
+.contact-me p {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+.contact-me input {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border: solid 0.5px grey;
+  margin-left: 300px;
+}
+.contact-me textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-left: 300px;
+
+}
+.send-e-button {
+  background-color: transparent;
+  border: 3px solid #00B7FF;
+  border-radius: 45px;
+  padding: 10px 5px;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: #00B7FF;
+  margin-left: 450px;
+}
+.send-e-button:hover {
+  background-color: black;
+  color: #00B7FF;
+  border-color: black;
+  transition: 0.3s;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.808)
+}
+footer h1 {
+  padding-top: 40px;
+  color: grey;
+  text-align: center
+}
+footer p {
+  color: lightgrey;
+  text-align: center;
+}
+.icon-col {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 50px;
+}
+.icon-col i {
+  color: whitesmoke;
+  border-color: whitesmoke;
+  padding:30px;
+  margin-left: 180px;
+
+}
+.icon-col i:hover {
+  transition: 0.3s;
+  color: #00B7FF;
+  border-color: #00B7FF;
 }
